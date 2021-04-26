@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <title>Frontend Mentor | Stats preview card component</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body class="fondoMain">
+        <div
+            class="container my-20 mx-auto h-100 bg-red-400 cardBackground text-white rounded-lg flex flex-col md:flex-row"
+        >
+            <article
+                class="container mx-auto flex-1 px-16 py-20 order-2 md:order-1 flex flex-col justify-center"
+            >
+                <h1 class="text-3xl font-bold">
+                    Get <span class="text-purple-500">insights</span> that help your business grow.
+                </h1>
+                <p class="font-medium my-10 text-lg">
+                    Discover the benefits of data analytics and make better decisions regarding
+                    revenue, customer experience, and overall efficiency.
+                </p>
+                <div class="flex flex-col sm:flex-row my-10">
+                    <div class="flex flex-col items-center flex-1">
+                        <h3 class="text-2xl font-bold">10K+</h3>
+                        <p class="font-light text-gray-500">COMPANIES</p>
+                    </div>
+                    <div class="flex flex-col items-center flex-1">
+                        <h3 class="text-2xl font-bold">314</h3>
+                        <p class="font-normal text-gray-500">TEMPLATES</p>
+                    </div>
+                    <div class="flex flex-col items-center flex-1">
+                        <h3 class="text-2xl font-bold">12M+</h3>
+                        <p class="font-normal text-gray-500">QUERIES</p>
+                    </div>
+                </div>
+            </article>
+            <div
+                class="flex-shrink-0 md:flex-shrink w-100 h-100 order-1 md:order-2 text-center flex-1 relative"
+            >
+                <div class="bg-purple-600 opacity-50 top-0 absolute inset-0"></div>
+                <img
+                    src="images/image-header-desktop.jpg"
+                    alt=""
+                    class="rounded-t-lg md:rounded-r-lg md:rounded-none w-screen md:h-screen object-cover alsolute"
+                />
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+            >. Coded by <a href="#">Your Name Here</a>.
+        </div>
+    </body>
+</html>
